@@ -1,6 +1,6 @@
 "use client";
 
-import { addPost } from "@/services/getPosts";
+import { addPost } from "@/app/services/getPosts";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEventHandler } from "react";

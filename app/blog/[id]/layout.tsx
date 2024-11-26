@@ -1,4 +1,4 @@
-import { getDataById } from "@/services/getPosts";
+import { getDataById } from "@/app/services/getPosts";
 import { Metadata } from "next";
 
 type Props = {

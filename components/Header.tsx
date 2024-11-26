@@ -1,4 +1,4 @@
-import { navItems } from "@/consts/navItems";
+import { navItems } from "@/app/consts/navItems";
 import { Navigation } from "./Navigation";
 
 const Header = () => {

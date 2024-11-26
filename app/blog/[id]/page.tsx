@@ -1,6 +1,6 @@
 "use client";
 
-import { deletePost, getDataById, updatePost } from "@/services/getPosts";
+import { deletePost, getDataById, updatePost } from "@/app/services/getPosts";
 
 import Link from "next/link";
 import { useParams } from "next/navigation";

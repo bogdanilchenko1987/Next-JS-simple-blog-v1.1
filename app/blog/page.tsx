@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+import { getAllPosts } from "../services/getPosts";
 import { Posts } from "@/components/Posts";
 import { PostsSearch } from "@/components/PostsSearch";
 
 import { useRouter } from "next/navigation";
-import { getAllPosts } from "@/services/getPosts";
 
 export default function Blog() {
   const [posts, setPosts] = useState<any[]>([]);
