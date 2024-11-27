@@ -30,8 +30,8 @@ export default function Post() {
   };
 
   const onDelete = () => {
-    router.push(`/blog`);
     deletePost(params.id);
+    router.push(`/blog`);
   };
 
   return (

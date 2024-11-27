@@ -5,7 +5,7 @@ type Props = {
 
 const PostsSearch = ({ onSearch, search }: Props) => {
   return (
-    <label className="label" htmlFor="search">
+    <label className="label">
       <b>Find post: </b>
       <input
         type="text"
